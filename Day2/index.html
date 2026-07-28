@@ -1,81 +1,56 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Registration From</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Student Registration From</h1>
-        <img src="./images/logo.png" alt="logo" />
+      <h1>Student Registration From</h1>
     </header>
 
-    <main>
-        <section>
-            <form>
-                <lable for="name">Student Name:</lable><br />
-                <input type="text" id="Name" name="Student Name" /><br /><br />
-                <label for="email">Email:</label><br />
-                <input type="email" id="Email" name="Email" /><br /><br />
-                <label for="Number">Phone Number:</label><br />
-                <input type="phone" id="phone Number" phone="Number" /><br /><br />
+    <form>
+      <lable for="name">Student Name:</lable><br />
+      <input type="text" id="Name" name="Student Name" /><br /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="Email" name="Email" /><br /><br />
+      <label for="Number">Phone Number:</label><br />
+      <input type="phone" id="phone Number" phone="Number" /><br /><br />
 
-                <label>Gender</label><br />
-                <input type="radio" id="male" name="Gender" value="Male" />
-                <label for="male">Male</label>
-                <input type="radio" id="Female" name="Gender" value="Female" />
-                <label for="Female">Female</label>
-                <input type="radio" id="Other" name="Gender" value="Other" />
-                <label for="other">Other</label><br /><br />
+      <label>Gender</label><br />
+      <input type="radio" id="male" name="Gender" value="Male" />
+      <label for="male">Male</label>
+      <input type="radio" id="Female" name="Gender" value="Female" />
+      <label for="Female">Female</label>
+      <input type="radio" id="Other" name="Gender" value="Other" />
+      <label for="other">Other</label><br /><br />
 
-                <label>Course</label><br />
-                <select name="Course">
-                    <option value="html">Html</option>
-                    <option value="css">css</option>
-                    <option value="JavaScript">JavaScript</option>
-                </select><br /><br />
-                <textarea rows="5" cols="40" placeholder="Enter your message ...."></textarea><br /><br />
+      <label>Course</label><br />
+      <select name="Course">
+        <option value="html">Html</option>
+        <option value="css">css</option>
+        <option value="JavaScript">JavaScript</option></select
+      ><br /><br />
+      <textarea
+        rows="5"
+        cols="40"
+        placeholder="Enter your message ...."
+      ></textarea
+      ><br /><br />
 
-                <label for="photo">upload photo</label>
-                <input type="file" id="photo" name="photo" /><br /><br />
+      <label for="photo">upload photo</label>
+      <input type="file" id="photo" name="photo" /><br /><br />
 
-                <label>Terms</label>
-                <label for="terms">I agree to the terms & conditions</label>
-                <input type="checkbox" id="terms" required /><br /><br />
-
-                <label>Sumbit</label>
-                <button type="submit">Submit</button>
-                <label>Reset</label>
-                <button type="reset">Reset</button>
-            </form>
-        </section>
-
-        <section>
-            <audio controls autoplay loop>
-                <source src="./assets/atlasaudio-nature-519434.mp3" type="audio/mpeg" />
-                This is nature sound.
-            </audio>
-            <br />
-            <video width="640" height="360" poster="./images/banner.png" controls loop poster="./images/banner.png">
-                <source src="./assets/14519720_3840_2160_25fps.mp4" type="video/mp4" />
-            </video>
-        </section>
-
-        <section>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.3411476020483!2d85.13391106084012!3d25.60358342735752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58688297a6f3%3A0x7b2558c82fd5ff4b!2sPatna%20Junction%20railway%20station!5e1!3m2!1sen!2sin!4v1785249009282!5m2!1sen!2sin"
-                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </section>
-    </main>
-
-    <footer>
-        <p><b>Name: </b>Ritik Raushan</p>
-        <p><b>Email: </b>raushanritikkrk7372@gmail.com</p>
-    </footer>
-</body>
-
+      <label>Terms</label>
+      <label for="terms">I agree to the terms & conditions</label>
+      <input type="checkbox" id="terms" required /><br /><br />
+      <div>
+        <label>Sumbit</label>
+        <button type="submit">Submit</button>
+        <label>Reset</label>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
 </html>
