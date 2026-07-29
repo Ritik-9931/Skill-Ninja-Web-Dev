@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    color: #F78102;
+}
+
+body {
+    background-image: url("./images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    height: 810px;
+    width: 550px;
+    background-color: #0B0F19;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #F78102;
+    border-radius: 15px;
+}
+
+label {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    border: #F78102 solid 1px;
+    border-radius: 12px;
+    height: 30px;
+    width: 95%;
+    padding: 5px 10px;
+    margin: 5px auto;
+    font-size: 16px;
+}
+
+.gender {
+    width: 20px;
+    font-size: 16px;
+    height: 15px;
+    margin: 0 0 0 12px;
+}
+
+select {
+    border: #F78102 solid 1px;
+    border-radius: 12px;
+    height: 40px;
+    width: 95%;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#msg {
+    border: #F78102 solid 1px;
+    border-radius: 12px;
+    height: 100px;
+    width: 85%;
+    padding: 15px;
+    margin: auto 10px;
+    font-size: 16px;
+}
+
+#photo {
+    padding: 12px;
+}
+
+#term {
+    display: inline-flex;
+    align-items: center;
+}
+
+button{
+    height: 40px;
+    width: 45%;
+    border-radius: 12px;
+    border: 1px solid #F78102;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: auto 12px;
+}
+
+#submit {
+    color: #FFFFFF;
+    background: #2E7D32;
+}
+
+#reset {
+    color: #FFFFFF;
+    background: #DC2626;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #F78102;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+footer p {
+    color: white;
+}
+
+footer p b{
+    color: white;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Registration From</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="./images/logo.png" alt="logo" />
+    <h1>Student Registration From</h1>
+  </header>
+
+  <main>
+    <form>
+      <label for="name">Student Name:</label><br />
+      <input type="text" id="Name" name="Student Name" placeholder="Enter Your Name" /><br /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="Email" name="Email" placeholder="Enter Your Email" /><br /><br />
+      <label for="Number">Phone Number:</label><br />
+      <input type="phone" id="phone Number" phone="Number" placeholder="Enter you Phone No." /><br /><br />
+
+      <label>Gender</label><br />
+      <input class="gender" type="radio" id="male" name="Gender" value="Male" />
+      <label for="male">Male</label>
+      <input class="gender" type="radio" id="Female" name="Gender" value="Female" />
+      <label for="Female">Female</label>
+      <input class="gender" type="radio" id="Other" name="Gender" value="Other" />
+      <label for="other">Other</label><br /><br />
+
+      <label>Course</label><br />
+      <select name="Course">
+        <option value="html">Html</option>
+        <option value="css">css</option>
+        <option value="JavaScript">JavaScript</option>
+      </select><br /><br />
+      <textarea id="msg" rows="5" cols="40" placeholder="Enter your message ...."></textarea><br /><br />
+
+      <label for="photo">Upload photo</label>
+      <input type="file" id="photo" name="photo" /><br /><br />
+
+      <label>Terms</label><br />
+      <label id="term" style="width: 300px">
+        <input style="margin: 0 10px 0 0; padding: 0; width: 15px" type="checkbox" required />
+        I agree to the terms &amp; conditions
+      </label>
+
+      <div>
+        <button type="submit" id="submit">Submit</button>
+        <button type="reset" id="reset">Reset</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p><b>Create by: </b>Ritik Raushan</p>
+    <p><b>Email: </b>raushanritikkrk7372@gmail.com</p>
+  </footer>
+</body>
+
+</html>
