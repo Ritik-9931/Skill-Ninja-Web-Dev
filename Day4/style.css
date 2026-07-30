@@ -224,6 +224,11 @@ input:hover {
     transition: all 0.3s ease;
   }
 
+  #hero div:hover{
+    transform: scale(1.05);
+    transform: rotate(360);
+  }
+
   nav img:hover{
     transform: scale(1.9) rotate(360deg);
   }
