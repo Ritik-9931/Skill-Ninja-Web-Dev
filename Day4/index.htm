@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./images/logo.png" alt="logo" />
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact-form">Contact Form</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div id="home">
+                <img src="./images/mypic.jpeg" alt="Ritik Raushan" />
+
+                <h1>Hi, I'm Ritik Raushan</h1>
+
+                <h2>Full Stack Developer</h2>
+
+                <p>
+                    I build responsive and user-friendly web applications using HTML,
+                    CSS, JavaScript, React, Node.js, Express.js, Spring Boot, MongoDB,
+                    and MySQL.
+                </p>
+            </div>
+
+            <div>
+                <h2 id="about">About Me</h2>
+
+                <p>
+                    Hello! I'm <strong>Ritik Raushan</strong>, a BCA graduate with a
+                    passion for web development. I enjoy creating modern, responsive,
+                    and user-friendly websites and web applications.
+                </p>
+
+                <p>
+                    I have experience working with frontend and backend technologies,
+                    including HTML, CSS, JavaScript, React.js, Node.js, Express.js,
+                    Spring Boot, MongoDB, and MySQL.
+                </p>
+
+                <p>
+                    My goal is to start my career as a Full Stack Developer,
+                    continuously improve my skills, and contribute to real-world
+                    projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact form</h2>
+            <form>
+                <label for="name">Student Name:</label><br />
+                <input type="text" id="Name" name="Student Name" placeholder="Enter Your Name" /><br /><br />
+                <label for="email">Email:</label><br />
+                <input type="email" id="Email" name="Email" placeholder="Enter Your Email" /><br /><br />
+                <label for="Number">Phone Number:</label><br />
+                <input type="phone" id="phone Number" phone="Number" placeholder="Enter you Phone No." /><br /><br />
+
+                <label>Gender</label><br />
+                <input class="gender" type="radio" id="male" name="Gender" value="Male" />
+                <label for="male">Male</label>
+                <input class="gender" type="radio" id="Female" name="Gender" value="Female" />
+                <label for="Female">Female</label>
+                <input class="gender" type="radio" id="Other" name="Gender" value="Other" />
+                <label for="other">Other</label><br /><br />
+
+                <label>Course</label><br />
+                <select name="Course">
+                    <option value="html">Html</option>
+                    <option value="css">css</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select><br /><br />
+                <textarea id="msg" rows="5" cols="40" placeholder="Enter your message ...."></textarea><br /><br />
+
+                <label for="photo">Upload photo</label>
+                <input type="file" id="photo" name="photo" /><br /><br />
+
+                <label>Terms</label><br />
+                <label id="term" style="width: 300px">
+                    <input style="margin: 0 10px 0 0; padding: 0; width: 15px" type="checkbox" required />
+                    I agree to the terms &amp; conditions
+                </label>
+
+                <br />
+                <div style="width: 100%">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><b>Name: </b>Ritik Raushan</p>
+    </footer>
+</body>
+
+</html>
